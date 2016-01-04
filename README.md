@@ -6,36 +6,10 @@ A PHP Client library to consume the Acquia Content Hub API.
 
 ## Installation
 
-Acquia Content Hub Client for PHP can be installed with Composer by adding it as a
-dependency to your project's composer.json file. To start using composer follow
-these steps:
+Install the latest version with
 
-#### Install Composer:
-
-```sh
- $ curl -sS https://getcomposer.org/installer | php
- $ mv ./composer.phar ~/bin/composer # or /usr/local/bin/composer
-```
-
-#### Create composer.json file on root of your project:
-
-```json
-{
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/acquia/content-hub-php"
-        }
-    ],
-    "require": {
-        "acquia/content-hub-php": "*"
-    }
-}
-```
-
-#### Install the package:
-```sh
- $ composer install
+```bash
+$ composer require acquia/content-hub-php
 ```
 
 ## Usage
